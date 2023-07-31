@@ -35,3 +35,40 @@ Question 04
 Primitive widening conversion, also known as automatic type promotion, is a type of type conversion in Java where a value of a smaller data type is automatically converted to a larger data type without any explicit casting or loss of information. This conversion is considered safe because there is no risk of losing data when converting from a smaller data type to a larger one.
 
 In Java, primitive widening conversions occur when you perform operations involving different data types, and the smaller data type is automatically promoted to the larger data type to perform the operation.
+
+Question 05
+
+Run-time constant: A run-time constant is a constant whose value is determined and evaluated at run-time, as an example while the program is executing. Unlike a compile-time constant, the value of a run-time constant can change during the program's execution.
+
+Compile-time constant: A compile-time constant is a constant whose value is known and can be evaluated by the compiler at compile-time, as an example when the code is being converted into executable bytecode. The value of a compile-time constant cannot change during the program's execution, and the compiler replaces all occurrences of the constant with its actual value at compile-time.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
