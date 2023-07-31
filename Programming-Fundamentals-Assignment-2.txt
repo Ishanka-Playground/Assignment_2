@@ -42,6 +42,12 @@ Run-time constant: A run-time constant is a constant whose value is determined a
 
 Compile-time constant: A compile-time constant is a constant whose value is known and can be evaluated by the compiler at compile-time, as an example when the code is being converted into executable bytecode. The value of a compile-time constant cannot change during the program's execution, and the compiler replaces all occurrences of the constant with its actual value at compile-time.
 
+Question 06
+
+Implicit (Automatic) Narrowing Primitive Conversions: Implicit narrowing primitive conversions happen automatically and are performed by the Java compiler when a value of a larger data type is assigned to a variable of a smaller data type. The conversion is considered narrowing because it may result in the loss of information if the value being assigned cannot be accurately represented in the smaller data type. Despite the potential loss of information, Java allows these conversions when it believes that the programmer is aware of the possible loss and has explicitly decided to perform the conversion automatically.
+
+Explicit Narrowing Conversions (Casting): Explicit narrowing conversions, also known as casting, are conversions in which the programmer explicitly tells the compiler to convert a value from a larger data type to a smaller data type. This is done by using a cast operator. The cast operator is used to inform the compiler that the programmer is aware of the potential loss of information and still wants to perform the conversion.
+
 
 
 
