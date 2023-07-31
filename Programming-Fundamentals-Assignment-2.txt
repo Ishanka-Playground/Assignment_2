@@ -8,4 +8,13 @@ Strongly Typed Language: A strongly typed language enforces strict type checking
 
 Loosely Typed Language:In contrast, a loosely typed language allows automatic type conversion between different data types without requiring explicit conversion by the programmer. The language system performs implicit type coercion to make the data types compatible for specific operations. This can lead to more flexible coding but might also introduce unexpected behaviors if not used carefully. 
 
- Java is both a statically typed and a strongly typed language.
+Java is both a statically typed and a strongly typed language.
+ 
+ 
+Question 02
+ 
+Case Sensitive: A language is considered case sensitive when it treats uppercase and lowercase letters as distinct and significant. This means that using different cases (e.g., uppercase and lowercase) for the same word will result in different meanings or interpretations. For example, "Variable" and "variable" are treated as two different identifiers in a case-sensitive language.
+
+Case Insensitive: A language is considered case insensitive when it treats uppercase and lowercase letters as equivalent. This means that using different cases for the same word will not change the interpretation or meaning of the word. For example, "Variable" and "variable" would be considered the same identifier in a case-insensitive language.
+
+Case Sensitive-Insensitive: Some programming languages and systems can have a mix of case sensitivity in different parts. For example, variable names might be case sensitive, while function names or keywords are case insensitive. It can lead to varying behavior depending on the context.
