@@ -84,6 +84,11 @@ By using `int` as the default for integer literals, Java avoids potential loss o
 Overall, the choice of `int` and `double` as default data types for integer and floating-point literals, respectively, strikes a balance between memory efficiency, precision, and backward compatibility. It aligns with the goals of simplicity, ease of use, and maintaining a familiar syntax for developers coming from other languages. Programmers can always explicitly specify the data types if they require different precisions or ranges, ensuring that they have control over how their data is represented and manipulated in their Java programs.
 
 
+Question 09
+
+Implicit narrowing conversion occurs only among `byte`, `char`, `int`, and `short` because they are smaller types and can safely store values from larger types without losing data. Larger types like `long`, `float`, and `double` need explicit casting to avoid potential data loss.
+
+
 
 
 
