@@ -22,10 +22,16 @@ Case Sensitive-Insensitive: Some programming languages and systems can have a mi
 
 Question 03
 
-
 In Java, an identity conversion is a type of type conversion where no actual conversion is performed. It means that the value and the type of the expression remain the same after the conversion. This conversion is called "identity" because it doesn't change anything about the data; it merely reaffirms the type of the expression.
 
 In Java, identity conversion occurs under the following conditions:
 
 1.When you assign a value to a variable of the same type, no conversion is needed, and it is considered an identity conversion.
 2.When you pass an argument to a method parameter of the same type, no conversion is needed, and it is considered an identity conversion.
+
+
+Question 04
+
+Primitive widening conversion, also known as automatic type promotion, is a type of type conversion in Java where a value of a smaller data type is automatically converted to a larger data type without any explicit casting or loss of information. This conversion is considered safe because there is no risk of losing data when converting from a smaller data type to a larger one.
+
+In Java, primitive widening conversions occur when you perform operations involving different data types, and the smaller data type is automatically promoted to the larger data type to perform the operation.
