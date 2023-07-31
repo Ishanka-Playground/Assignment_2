@@ -48,6 +48,22 @@ Implicit (Automatic) Narrowing Primitive Conversions: Implicit narrowing primiti
 
 Explicit Narrowing Conversions (Casting): Explicit narrowing conversions, also known as casting, are conversions in which the programmer explicitly tells the compiler to convert a value from a larger data type to a smaller data type. This is done by using a cast operator. The cast operator is used to inform the compiler that the programmer is aware of the potential loss of information and still wants to perform the conversion.
 
+Question 07
+
+The assignment of a 64-bit long data type to a 32-bit float data type in Java is an example of a narrowing primitive conversion. This conversion may result in potential loss of precision because the float data type has a smaller range and cannot accurately represent all the values that can be represented by a long data type. The reason this conversion is allowed is due to the fact that the long data type has a wider range than the float data type. Java allows such conversions because it assumes that the programmer is aware of the potential loss of precision and has explicitly decided to perform the conversion.
+
+Here's how the conversion works:
+
+1.When assigning a long value to a float variable, the Java compiler automatically performs an implicit narrowing primitive conversion. The compiler takes the 64-bit long value and converts it to a 32-bit float value.
+
+2.In this conversion, the compiler discards some of the least significant bits of the long value, as they cannot be represented in the float data type. This is the step where potential loss of precision occurs.
+
+3.The float data type is capable of representing a smaller range of values than the long data type. The float type can represent approximately 7 decimal digits accurately.
+
+4.Any value of a long data type that falls outside the representable range of the float data type may lose precision or get rounded to the nearest representable float value.
+
+
+
 
 
 
