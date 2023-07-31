@@ -1,0 +1,11 @@
+Question 01
+
+Statically Typed Language: In a statically typed language, the data types of variables are determined and checked at compile time. it means that we must explicitly declare the data type of each variable before using it, and the compiler enforces strict type checking during the compilation process. Once a variable is assigned a particular data type, it cannot be changed to a different data type later in the program.
+
+Dynamically Typed Language: In a dynamically typed language, the data types of variables are determined and checked at runtime. We don't need to explicitly specify the data type when declaring variables. Instead, the data type is inferred based on the value assigned to the variable at runtime. Also, the type of a variable can be changed during the execution of the program.
+
+Strongly Typed Language: A strongly typed language enforces strict type checking and doesn't allow automatic type conversions between different data types without explicit conversion by the programmer. This means that we cannot perform operations between incompatible data types without explicitly converting them. It helps catch potential type related errors at compile time. Both statically and dynamically typed languages can be strongly typed.
+
+Loosely Typed Language:In contrast, a loosely typed language allows automatic type conversion between different data types without requiring explicit conversion by the programmer. The language system performs implicit type coercion to make the data types compatible for specific operations. This can lead to more flexible coding but might also introduce unexpected behaviors if not used carefully. 
+
+ Java is both a statically typed and a strongly typed language.
