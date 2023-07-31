@@ -64,6 +64,26 @@ Here's how the conversion works:
 
 
 
+Question 08
+
+
+The choice of using `int` as the default data type for integer literals and `double` as the default data type for floating-point literals in Java is primarily driven by a balance between efficiency, precision, and backward compatibility.
+
+1. Efficiency:
+`int` is chosen as the default data type for integer literals because it is the most common and efficient data type for representing whole numbers in Java. It typically uses 32 bits of memory, which makes it more efficient in terms of memory usage and arithmetic operations on most modern processors.
+
+2. Precision:
+`double` is chosen as the default data type for floating-point literals because it offers higher precision compared to `float`. A `double` data type uses 64 bits of memory, allowing it to represent a wider range of decimal numbers and provide more significant digits compared to `float`, which uses 32 bits.
+
+3. Backward Compatibility:
+When Java was designed, the creators wanted to ensure backward compatibility with C and C++, which are influential programming languages in the history of computing. In C and C++, `int` and `double` are the default data types for integer and floating-point literals, respectively. By using the same defaults in Java, developers coming from C/C++ backgrounds would find the transition to Java more familiar and seamless.
+
+4. Avoiding Potential Loss of Data:
+By using `int` as the default for integer literals, Java avoids potential loss of data when programmers use integer literals without specifying data types explicitly. For example, if the default were `long`, code like `int x = 1000000;` would lead to a compilation error because `1000000` would be treated as a `long` value, and it wouldn't fit into an `int`. Using `int` as the default ensures that integer literals behave as expected in most scenarios.
+
+Overall, the choice of `int` and `double` as default data types for integer and floating-point literals, respectively, strikes a balance between memory efficiency, precision, and backward compatibility. It aligns with the goals of simplicity, ease of use, and maintaining a familiar syntax for developers coming from other languages. Programmers can always explicitly specify the data types if they require different precisions or ranges, ensuring that they have control over how their data is represented and manipulated in their Java programs.
+
+
 
 
 
