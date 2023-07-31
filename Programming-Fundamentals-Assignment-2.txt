@@ -88,6 +88,12 @@ Question 09
 
 Implicit narrowing conversion occurs only among `byte`, `char`, `int`, and `short` because they are smaller types and can safely store values from larger types without losing data. Larger types like `long`, `float`, and `double` need explicit casting to avoid potential data loss.
 
+Question 10
+
+"Widening primitive conversion" happens when you assign a smaller data type to a larger one without losing data. For example, assigning an int to a long is widening.
+"Narrowing primitive conversion" happens when you assign a larger data type to a smaller one, which may result in data loss. For example, assigning a long to an int is narrowing.
+The conversion from short to char is neither widening nor narrowing because both short and char have the same size (16 bits). It is considered an "identity conversion" as no change in size or data loss occurs.
+
 
 
 
